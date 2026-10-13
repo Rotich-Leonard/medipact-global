@@ -1,0 +1,25 @@
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Runtime uploads: use persistent storage or object storage in production
+uploads/*
+!uploads/.gitkeep
+
+# Logs and local files
+*.log
+.DS_Store
+Thumbs.db
+
+# Private keys / certificates
+*.pem
+*.key
+*.p12
+*.pfx

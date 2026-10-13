@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedImpact Global | Kenya's Premier Medical Drama &amp; Healthcare Media Production</title>
+<meta name="description" content="MedImpact Global brings together healthcare, media, creative arts and technology to produce films, series and documentaries that create lasting social impact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="/js/tailwind-config.js"></script>
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md antialiased selection:bg-secondary selection:text-white">
+
+<header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/95 backdrop-blur-md border-b border-outline-variant/40 shadow-sm">
+  <div class="flex justify-between items-center h-20 md:h-24 px-4 md:px-8 w-full">
+    <a id="brandLink" class="flex items-center group shrink-0" href="#hero" aria-label="MedImpact Global – back to home">
+      <div id="brandLogoBox" class="w-14 h-14 md:w-16 md:h-16 rounded-xl bg-primary-container text-secondary flex items-center justify-center border border-outline-variant/40 shadow-inner group-hover:border-secondary group-active:scale-95 transition-all duration-200">
+        <span class="material-symbols-outlined text-secondary fill text-3xl md:text-4xl">monitor_heart</span>
+      </div>
+    </a>
+    <div class="flex items-center gap-6">
+    <nav id="mainNav" class="hidden lg:flex items-center gap-6 mr-2">
+      <a class="nav-link" href="#events">Events</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#what-we-do">What We Do</a>
+      <a class="nav-link" href="#flagship">Flagship</a>
+      <a class="nav-link" href="#team">Team</a>
+      <a class="nav-link" href="#media">Media</a>
+    </nav>
+      <div class="flex items-center gap-3">
+      <a id="waTop" aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer" href="#"
+         class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg font-headline-sm text-body-sm text-white bg-green-500 hover:shadow-md transition-all duration-200 shadow-sm active:scale-95">
+        <span class="material-symbols-outlined text-sm fill">chat</span><span class="hidden sm:inline font-medium">WhatsApp</span>
+      </a>
+      <a class="hidden sm:inline-flex items-center px-4 py-2 rounded-lg font-headline-sm text-body-sm text-on-surface border border-outline-variant hover:border-secondary hover:text-secondary transition-all duration-200" href="#contact">Contact</a>
+      <a class="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-headline-sm text-body-sm text-on-primary bg-primary-container hover:bg-secondary transition-all duration-200 shadow-sm active:scale-95" href="#contact">
+        <span class="material-symbols-outlined text-sm fill">handshake</span><span>Partner With Us</span>
+      </a>
+      <button id="menuBtn" aria-label="Open menu" class="lg:hidden p-2 rounded-lg border border-outline-variant text-on-surface"><span class="material-symbols-outlined">menu</span></button>
+      </div>
+    </div>
+  </div>
+  <nav id="mobileNav" class="hidden lg:hidden border-t border-outline-variant/40 bg-surface-container-lowest px-margin-mobile py-3 flex-col gap-1">
+    <a class="mnav" href="#events">Events</a><a class="mnav" href="#about">About</a><a class="mnav" href="#what-we-do">What We Do</a>
+    <a class="mnav" href="#flagship">Flagship</a><a class="mnav" href="#team">Team</a><a class="mnav" href="#media">Media</a><a class="mnav" href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main class="pt-20 md:pt-24" id="app">
+  <div id="loading" class="min-h-[70vh] flex items-center justify-center font-label-code text-label-code text-outline tracking-widest">LOADING BROADCAST FEED…</div>
+</main>
+
+<footer id="footer"></footer>
+
+<script src="/js/app.js"></script>
+</body>
+</html>
